@@ -27,7 +27,7 @@ It takes time to build all these skills, but with consistent practice, you'll bu
 
 ## Boolean operators and expressions
 
-Booleans can only have two values: `true` or `false`
+Booleans can only have two values: `true` or `false`.
 
 You can combine boolean values to create expressions.
 

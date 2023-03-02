@@ -39,7 +39,7 @@ Unlike pressing the save button for a file, `git` requires three steps:
 
 ## Getting started
 
-The most common way to use Git is via a command-line program called `git`, which lets us transform an ordinary folder into a repository (or `repo` for short) that enables us to track changes to our project.
+The most common way to use Git is via a command-line program called `git`, which lets us transform an ordinary folder into a repository (or `repo`, for short) that enables us to track changes to our project.
 
 The easiest way to check for Git is to start a terminal window and use `which` at the command line to see if the git executable is already present:
 
