@@ -10,7 +10,7 @@ JavaScript has many built-in methods that will provide you with some handy funct
 
 The best way to learn built-in methods is to learn about a small number of them: figure out how they work, how to use the documentation, and learn how to google for what you need. You don't need to memorize all the methods. You will naturally begin to memorize some of the ones you use most often. For the ones you use less frequently, it's totally ok to look them up.
 
-> **Note**: When a function belongs to a group of functions, it is usually referred to as a `method`. You can tell it belongs to a group, because the syntax is `.someMethod()`. This is in contrast to a function which is usually written as `someFunction()`.
+> **Note**: When a function belongs to a group of functions, it is usually referred to as a `method`. You can tell it belongs to a group, because the syntax is `.someMethod()`, for example, `"hello".toUpperCase()`. This is in contrast to a function which is usually written as `someFunction()`, for example, `Math.floor()`.
 
 ## Learning Objectives
 
