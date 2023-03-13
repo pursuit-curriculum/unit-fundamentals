@@ -39,6 +39,7 @@ Every value has a descriptive key, and it is easy to understand what each proper
 - Access values in an object through bracket and dot notation.
 - Update values in an object with bracket and dot notation.
 - Add key-value pairs to an object with bracket and dot notation.
+- Use common object methods: `.hasOwnProperty()`, `.keys()`, `.values()`, `.entries()`
 - Loop over an object.
 - Differentiate between arrays and objects.
 
@@ -102,6 +103,16 @@ giftBox.chocolate = "Hazelnut overload";
 console.log(giftBox);
 ```
 
+## Checking for a key
+
+You can check if an object has a key by using a method. It will return `true` if the object has the key, and `false` if it does not.
+
+```js
+console.log(giftBox.hasOwnProperty("price"));
+
+console.log(giftBox.hasOwnProperty("clothing"));
+```
+
 ## Iterating over an object
 
 There are two common ways to iterate over an object.
@@ -135,6 +146,22 @@ You can then use those keys to access the property:
 for (let key in giftBox) {
   console.log(giftBox[key]);
 }
+```
+
+## Converting Objects into Arrays
+
+Along with getting the object's keys, you can also create an array of the object's values
+
+```js
+const giftBoxValues = Object.values(giftBox);
+console.log(giftBoxValues);
+```
+
+You can also convert an object into an array of arrays. Each inner array will hold the key in the 0 index and the property in the 1 index.
+
+```js
+const giftBoxKeysAndValues = Object.entries(giftBox);
+console.log(giftBoxKeysAndValues);
 ```
 
 ## Compare and contrast objects and arrays
