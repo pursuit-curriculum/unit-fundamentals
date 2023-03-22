@@ -189,7 +189,7 @@ function calculator(num1, num2, operator) {
   } else if (operator === "subtract") {
     return subtract(num1, num2);
   } else if (operator === "multiply") {
-    return add(num1, num2);
+    return multiply(num1, num2);
   } else if (operator === "divide") {
     return divide(num1, num2);
   } else {
