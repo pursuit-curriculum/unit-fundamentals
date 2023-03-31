@@ -55,7 +55,7 @@ console.log(myVariable);
 // Uncaught ReferenceError: myVariable is not defined
 ```
 
-Using the keyword `let` or `const` when declaring a for loop will also limit the scope to be inside the loop. 
+Using the keyword `let` or `const` when declaring a `for` loop will also limit the scope of the declared variable to be inside the loop. 
 
 ```js
 for (let i = 0; i < 3; i++) {
