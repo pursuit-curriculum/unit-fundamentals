@@ -57,6 +57,7 @@ console.log(myVariable);
 
 Using the keyword `let` or `const` when declaring a `for` loop will also limit the scope of the declared variable to be inside the loop. 
 
+Using `let` in the control panel to declare `i`:
 ```js
 for (let i = 0; i < 3; i++) {
   console.log('The value of i inside the loop is', i)
@@ -66,6 +67,7 @@ for (let i = 0; i < 3; i++) {
 console.log('The value of i outside the loop is', i)
 ```
 
+Not using `let` in the control panel to declare `i`:
 ```js
 for (i = 0; i < 3; i++) {
   console.log('The value of i inside the loop is', i)
@@ -74,6 +76,8 @@ for (i = 0; i < 3; i++) {
 // vaue of i is available outside of the loop
 console.log('The value of i outside the loop is', i)
 ```
+
+Do you think it is best practice to use `let` in the control panel of the `for` loop? Why or why not?
 
 ## Function scope
 
