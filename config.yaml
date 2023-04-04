@@ -79,7 +79,7 @@ sequence:
       pursuit_path: skill-sharpening
       kind: project
       activity: replit
-      points_possible: 0 # TBD 186
+      points_possible: 100 
 ############################################################
 #               SPRINT 2
 ############################################################
@@ -116,11 +116,11 @@ sequence:
       pursuit_path: accumulator-pattern
       kind: lesson
       activity: replit
-    - name: Skill Honing
-      pursuit_path: skill-honing
+    - name: Trinkets and Treasures
+      pursuit_path: Trinkets and Treasures
       kind: project
       activity: replit
-      points_possible: 0
+      points_possible: 100
 ############################################################
 #               SPRINT 3
 ############################################################
@@ -181,7 +181,7 @@ sequence:
       pursuit_path: dinosaur-museum
       kind: project
       activity: repository
-      points_possible: 0 # tbd
+      points_possible: 100 
     - name: End of Module Reflection
       elements:
         - kind: deck
