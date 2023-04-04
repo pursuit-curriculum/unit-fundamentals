@@ -55,8 +55,33 @@ console.log(myVariable);
 // Uncaught ReferenceError: myVariable is not defined
 ```
 
+Using the keyword `let` or `const` when declaring a `for` loop will also limit the scope of the declared variable to be inside the loop. 
+
+Using `let` in the control panel to declare `i`:
+```js
+for (let i = 0; i < 3; i++) {
+  console.log('The value of i inside the loop is', i)
+}
+
+// reference error
+console.log('The value of i outside the loop is', i)
+```
+
+Not using `let` in the control panel to declare `i`:
+```js
+for (i = 0; i < 3; i++) {
+  console.log('The value of i inside the loop is', i)
+}
+
+// vaue of i is available outside of the loop
+console.log('The value of i outside the loop is', i)
+```
+
+Do you think it is best practice to use `let` in the control panel of the `for` loop? Why or why not?
+
 ## Function scope
 
+Parameters that are declared with a function have a scope that is limited to be inside the function. 
 ```js
 function myFunc(myName) {
   console.log(`My name is ${myName}`);
@@ -70,6 +95,9 @@ console.log(myName);
 
 // Uncaught ReferenceError: myName is not defined
 ```
+
+Each invocation of the function is separeate and does not "know" about any other invocations. 
+
 
 A function can call itself. This is called recursion.
 

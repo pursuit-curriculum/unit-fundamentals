@@ -210,6 +210,26 @@ checkContents(backpack, 8);
 
 Before running the above code, write out what you think the output will be. Taking the time to make a hypothesis about the outcome and then comparing and contrasting your expectations and results will help you understand the code better and how to fix any unexpected results.
 
+## Accessing a value when an array is inside another array
+
+```js
+const orders = [
+  ["fish", "chips"],
+  ["pancakes", "coffee"],
+];
+```
+
+Access the first array
+```js
+console.log(orders[0]);
+```
+
+Access the second item in the first array
+
+```js
+console.log(orders[0][1]);
+```
+
 ## An array's type
 
 If you use `typeof` on an array you will get...
