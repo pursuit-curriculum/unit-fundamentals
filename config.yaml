@@ -183,8 +183,8 @@ sequence:
       activity: repository
       points_possible: 80 
     - name: Dinosaur Museum Presentation
-      pursuit_path: dinosaur-museum
-      kind: task
+      kind: project
+      activity: presentation
       points_possible: 20 
     - name: End of Module Reflection
       elements:
