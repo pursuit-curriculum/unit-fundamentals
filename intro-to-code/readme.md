@@ -23,6 +23,10 @@ Computers have two primary components that collaborate to process information:
 
 1. **Central Processing Unit (CPU)**: The CPU serves as the computational powerhouse of the computer. It is responsible for executing instructions, performing calculations, and managing data. To communicate with the CPU effectively, programmers write instructions in a programming language, which is then translated into a form that the CPU can understand and execute. This intermediary step is critical, as CPUs only comprehend a specific set of binary instructions, composed of 0s and 1s.
 
+   You may have heard about binary, a system of writing that involves 0s and 1s, in popular media. While it is unlikely you will ever have to worry substantially about binary, it is important to note that the 0s and 1s are not just magic numbers. The hardware of computers have only two electrical states: on and off. A 1 represents an "on" state and a 0 represents the "off" state. In sequence, the 0s and 1s translate to a series of "off" and "on" signals that the computer can interpret.
+
+   As you learn to code, your code will be highly abstracted from binary code. However, at the end of the day, the code you write will interface with the computer in the same way binary code does.
+
 1. **Memory**: Memory plays a crucial role in the computer's operation by temporarily storing data and instructions required by the CPU. Two types of memory are particularly significant:
 
    - **RAM (Random Access Memory)**: This volatile memory provides fast but temporary storage. When you run a program, its instructions and data are loaded into RAM for quick access by the CPU. However, once the computer is turned off or restarted, the data in RAM is erased.
@@ -32,6 +36,12 @@ Computers have two primary components that collaborate to process information:
 <details><summary>❗️ How does writing code influence a computer's actions?</summary>
  As described above, code is the way in which people can influence a computer's actions. Writing code allows people to tell a computer what to do in a way that it will understand. A person could write code that executes a series of actions or stories something in memory.
 </details>
+
+#### Graphical user interfaces
+
+While the above two components are the most important to getting a computer to run, you may not be very familiar with either of them. Instead, you may be familiar with using a mouse and keyboard to interact with a computer desktop that displays symbols and windows on a screen.
+
+What is visually seen when working on a computer is referred to as the graphical user interface, or GUI. As humans, we use external devices like a mouse to interact with the GUI. This is very useful for us to work, play, and code with a computer. However, these devices are not necessary for a computer to run.
 
 ### Programming languages
 
