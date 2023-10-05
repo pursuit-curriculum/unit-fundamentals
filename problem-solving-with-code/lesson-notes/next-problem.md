@@ -1,4 +1,4 @@
-# Problem Solving Methodology Day 2 problem
+# Problem Solving with Code Part 2
 
 ## Learning Objectives
 

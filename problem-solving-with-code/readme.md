@@ -1,40 +1,29 @@
 # Problem Solving Methodologies
 
-Learning to code is only one part of being a software developer. The most important skill to develop is your ability to identify and solve problems. While you may not consciously know it, everyone employs different techniques and strategies when it comes to solving different kinds of problems. A developer is someone who knows how to problem solve and then can solve problems by writing code in the way that computers solve problems.
+Learning to code is only one part of being a software developer. The most important skill to develop is your ability to identify and solve problems.
 
-In this lesson, you'll learn about some common ways to solve problems. You'll also deep dive into one particular problem solving technique. Finally, you'll learn how to apply those techniques to typical coding challenges you might see during an interview.
+In this lesson, you'll learn about some common ways to solve problems with code. You'll also deep dive into one particular problem solving technique and see how it can be applied to solving code challenges.
 
 ## Learning Objectives
 
 By the end of this lesson you should be able to:
 
-- Analyze a problem by asking clarifying questions.
+- Analyze a coding problem by asking clarifying questions.
 - Devise multiple ways to solve a single problem before intentionally choosing one.
+- Evaluate a code solution with sample inputs and outputs.
 - Reflect back on a solution, identifying areas for improvement.
 
 ---
 
 ## How do we solve problems?
 
-What's the fastest way to get from New York City to Los Angeles, California, and then back again?
+When you first encountered the lesson on problem solving, you had some examples that you did not need to write any code for. Now, you'll see some examples of how to use your problem solving skills to solve coding challenges.
 
-Your first inclination may be to look up the answer on a service like Google Maps. But, consider this: how does Google Maps solve this problem? If you were working for Google, you would have to consider a number of factors including:
-
-- What mode of transportation is available?
-- Does weather or road closures impact travel at all?
-- Are there any human considerations for the travel? (e.g. needing to sleep)
-
-After consider these factors and others, Google engineers would then need to figure out how to calculate the amount of time it would take. For a difficult question like this, where could you even start?
-
-- You could _guess and check,_ by making an estimate based on the factors identified and then actually having someone do the trip to see if you're at all close.
-- You could start by _solving a smaller problem._ For example, first figure out how long it would take to get from New York City to Trenton, New Jersey. By solving a number of these smaller problems, you could then potentially add up the times you've calculated.
-- You could _try all possible avenues,_ also sometimes called using "brute force." Instead of worrying about any factors, you may just calculate every possible situation and then determine the shortest one.
-
-There are many ways to go about solving this problem, some better than others. As a software developer, when you encounter a problem you don't instantly know how to solve, it can be useful to have a structured technique for approaching the problem so that you stay on track.
+Let's review Poly'as problem solving technique
 
 ## Polya's problem solving technique
 
-One structured technique for solving any kind of problem is [Polya's Problem Solving Technique](https://math.berkeley.edu/~gmelvin/polya.pdf). Developed in the 1940s, this technique can be applied in all kinds of situations. Polya's technique has four discrete steps, each of which can be applied to challenges you encounter in both the real world and while writing code.
+[Polya's Problem Solving Technique](https://math.berkeley.edu/~gmelvin/polya.pdf) can be applied to solving code challenges.
 
 ### Understand the problem
 
@@ -51,8 +40,8 @@ Fibonacci number as defined by the Fibonacci sequence.
 
 This question is dense with technical and mathematic terms. In order to understand what is being asked, you'll need to be able to understand a number of key terms including:
 
-- Recursive function
-- Integer
+- recursive function
+- integer
 - Fibonacci number and sequence
 
 Without understanding the terms above, you'll certainly find it difficult to develop a solution for this problem. This is why your first step in approaching a problem should be to make sure you understand all of the key terms present in the problem prompt.
@@ -64,10 +53,10 @@ Although applicable to all kinds of problems, it's particularly important with c
 For example, take a look at the following problem:
 
 ```
-How many slices of pizza can be bought for $25?
+How many cupcakes can be made with 2lbs of flour?
 ```
 
-In the question above, the input you have is the amount of money: $25. The output is the number of slices that can be bought.
+In the question above, the input you have is the amount of flour: 2lbs The output is the number of cupcakes that can be baked.
 
 #### Clarifying questions
 
@@ -76,15 +65,15 @@ Additionally, it's normal to question the boundaries of the problem, so you can 
 For example, consider the following question:
 
 ```
-On average, how many adults rode the New York City Subway each day in the
-summer months of 2010?
+On average, how many children rode a New York City Bus each day in the
+winter months of 2015?
 ```
 
 The question above is pretty specific, but when you dig into the problem, you may come up with a number of questions:
 
-- What age range counts as being an adult?
-- What date range is considered for summer months?
-- If an adult rode the subway multiple times in a day, how often should they be counted?
+- What age range counts as being an child
+- What date range is considered for winter months?
+- If an child rode the bus multiple times in a day, how often should they be counted?
 
 These kind of questions allow you to figure out both base requirements and edge cases.
 
@@ -106,6 +95,12 @@ After spending time understanding the problem, including inputs and outputs, it'
 2. Multiply the total by `0.8`.
 
 Is there a "right" answer here? Not necessarily. If each one achieves the same goal, then in many ways it's up to you which path to choose. However, the second option above is a bit simpler. Coming up with multiple options can sometimes lead to you finding a more elegant solution.
+
+#### Coding paths
+
+Particularly when it comes to coding, there are a lot of ways to attain the same result. For example, `if/else` statements are sometimes interchangeable with `switch` statements. Whenever you use a method like `.push()` you could be using array indexing. Arrays and objects can often be used similarly, depending on the type of problem.
+
+With code, it's important to consider qualities like efficiency, readability, and flexibility. It's also important to consider which path seems most possible for you to do.
 
 ### Solve it
 
@@ -138,7 +133,7 @@ Depending on how you're solving your problem, checking for correctness may be ve
 If you're working on a problem where it's more difficult to check for correctness, you may instead just be checking your work. For example, consider the following problem:
 
 ```
-Write an application for a fellowship that will be accepted.
+Write an application for a job that will be accepted.
 ```
 
 If you are tackling the above problem, you can't really know if your application will be accepted until it is or is not. However, you can certainly do your best to check your work, make sure you've completed the application in full, and check for any mistakes you may have made.

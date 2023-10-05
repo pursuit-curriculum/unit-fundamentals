@@ -15,11 +15,26 @@ sequence:
       pursuit_path: intro-to-algorithms
       kind: lesson
       activity: canvas_text
-      activity_description: "<p>To complete this lab, you will need to write an algorithm in plain language. You will not need to write any code to complete this Lab.</p>
+      activity_description: | 
+        <p>To complete this lab, you will need to write an algorithm in plain language. You will not need to write any code to complete this Lab.</p>
 
-      <p>Write an algorithm that achieves the following outcome: looking up a word in an online or physical dictionary. Keep in mind any inputs a person may need and the desired output. Additionally, focus on designing for the default scenario (i.e. 'happy path') before thinking about edge cases. If there are any edge cases you think are important to keep in mind, include them at the end.</p>
+        <p>Write an algorithm that achieves the following outcome: looking up a word in an online or physical dictionary. Keep in mind any inputs a person may need and the desired output. Additionally, focus on designing for the default scenario (i.e. 'happy path') before thinking about edge cases. If there are any edge cases you think are important to keep in mind, include them at the end.</p>
 
-      <p>Do not spend more than 30 - 45 minutes on this Lab.</p>"
+        <p>Do not spend more than 30 - 45 minutes on this Lab.</p> 
+    - name: Problem Solving Methodologies
+      pursuit_path: problem-solving-methodologies
+      kind: lesson
+      activity: canvas_text
+      activity_description: | 
+       <p>For the first part of this activity, you will use problem solving methodologies to play a maze game. It is critical to learn how to talk about your problem solving methodologies. You will submit your responses to the following questions as your assignment.</p>
+       <p>Go to <a href="https://blockly.games/maze?lang=en&level=1&&skin=0"></a>And try to complete as many levels of the maze as possible.</p>
+       <p>Reflect on your problem solving methodologies to get through the maze levels. Be sure to address:</p>
+       <ul>
+        <li>How did you learn to play the game (did you read instructions, try trial and error etc.)?</li>
+        <li>As you progressed through the levels, describe your plan to solve each maze.</li>
+        <li>How did you adapt your strategies when your attempts did not succeed?</li>
+        <li>If you got stuck, how did you address it?</li>
+       </ul>
     - name: Core Tools Setup  # Block 1
       elements:
         - kind: guide
@@ -71,8 +86,8 @@ sequence:
       # Do on first day of first project
       # Do problem two on day two
       # Do problem three on day three
-    - name: Problem Solving Methodologies # Block during project
-      pursuit_path: problem-solving-methodologies
+    - name: Problem Solving With Code # Block during project
+      pursuit_path: problem-solving-with-code
       kind: lesson
       # activity: replit # No activity - project instead
     - name: Skill Sharpening
