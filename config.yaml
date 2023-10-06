@@ -17,7 +17,7 @@ sequence:
       activity: canvas_text
       activity_description: "<p>To complete this lab, you will need to write an algorithm in plain language. You will not need to write any code to complete this Lab.</p>
 
-      <p>Write an algorithm that achieves the following outcome: looking up a word in an online or physical dictionary. Keep in mind any inputs a person may need and the desired output. Additionally, focus on designing for the default scenario (i.e. 'happy path') before thinking about edge cases. If there are any edge cases you think are important to keep in mind, include them at the end.</p>
+      <p>Write an algorithm that achieves the following outcome: looking up a word in an online or physical dictionary. Keep in mind any inputs a person may need and the desired output. Additionally, focus on designing for the default scenario (i.e., 'happy path') before thinking about edge cases. If there are any edge cases you think are important to keep in mind, include them at the end.</p>
 
       <p>Do not spend more than 30 - 45 minutes on this Lab.</p>"
     - name: Core Tools Setup  # Block 1

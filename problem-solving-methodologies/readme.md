@@ -1,6 +1,6 @@
 # Problem Solving Methodologies
 
-Learning to code is only one part of being a software developer. The most important skill to develop is your ability to identify and solve problems. While you may not consciously know it, everyone employs different techniques and strategies when it comes to solving different kinds of problems. A developer is someone who knows how to problem solve and then can solve problems by writing code in the way that computers solve problems.
+Learning to code is only one part of being a software developer. The most important skill to develop is your ability to identify and solve problems. While you may not consciously know it, everyone employs different techniques and strategies when it comes to solving different kinds of problems. A developer is someone who knows how to problem solve and then can solve problems by writing code so that computers can solve those same problems.
 
 In this lesson, you'll learn about some common ways to solve problems. You'll also deep dive into one particular problem solving technique. Finally, you'll learn how to apply those techniques to typical coding challenges you might see during an interview.
 
@@ -23,13 +23,13 @@ Your first inclination may be to look up the answer on a service like Google Map
 
 - What mode of transportation is available?
 - Does weather or road closures impact travel at all?
-- Are there any human considerations for the travel? (e.g. needing to sleep)
+- Are there any human considerations for the travel? (e.g., needing to sleep)
 
 After consider these factors and others, Google engineers would then need to figure out how to calculate the amount of time it would take. For a difficult question like this, where could you even start?
 
 - You could _guess and check,_ by making an estimate based on the factors identified and then actually having someone do the trip to see if you're at all close.
 - You could start by _solving a smaller problem._ For example, first figure out how long it would take to get from New York City to Trenton, New Jersey. By solving a number of these smaller problems, you could then potentially add up the times you've calculated.
-- You could _try all possible avenues,_ also sometimes called using "brute force." Instead of worrying about any factors, you may just calculate every possible situation and then determine the shortest one.
+- You could _try all possible avenues,_ also sometimes called using "brute force." Instead of worrying about any factors, you may just calculate every possible path to Los Angeles and then determine the shortest one.
 
 There are many ways to go about solving this problem, some better than others. As a software developer, when you encounter a problem you don't instantly know how to solve, it can be useful to have a structured technique for approaching the problem so that you stay on track.
 
@@ -121,18 +121,23 @@ Once you understand the problem and have a path to take in mind, it's time to ac
 As an example, consider the following problem.
 
 ```
-Write a function that takes an array of objects, where each object has two keys:
-`firstName` and `lastName`. Then, sort the array in ascending alphabetical
-order by last name.
+How many quarters would you need to stack on top of each other to reach the height of the Empire State Building?
 ```
 
-For the problem above, after considering a few different options, you may come up with the following plan:
+First, you may begin by asking some clarifying questions. For example:
 
-> To solve this problem I will use the `.sort()` method, to sort the array by last name. Then, I'll return the array.
+- What is the thickness of a quarter?
+- How tall is the Empire State Building?
 
-The above plan essentially describes your implementation. To get started, you'll start by picking inputs and what output you would expect. Then, you'll just need to write the code to do it.
+The answers to these questions will define your inputs. The thickness of a quarter is 0.069 inches. The height of the Empire State Building is 1,454 feet.
 
-That's not to say it won't be tricky. You would need to remember how to write a function, return a value, and how to use the `.sort()` method. However, these are all concepts that can be looked up quickly. If you have a plan in place, writing the solution will be much easier.
+Next, you may think through a few different ways to solve this problem. After considering a few different options, you may come up with the following plan:
+
+> To solve this problem I will first convert the height of the Empire State Building from feet to inches. Then, I will divide the height of the Empire State Building by the thickness of each quarter. That should tell me how many quarters could be stacked up to reach the height of the Empire State Building.
+
+The above plan essentially describes your implementation. At the end of executing that plan, you should be left with the output: the number of quarters that would need to be stacked to reach the height of the Empire State Building.
+
+That's not to say it won't be tricky. You would still need to perform the conversion from feet to inches and divide some pretty complex numbers. However, at this point, you may be able to use a calculator or look up how to perform these tasks. While a calculator can help you with the calculations, it can't help you in getting to this point!
 
 ### Reflect back
 
