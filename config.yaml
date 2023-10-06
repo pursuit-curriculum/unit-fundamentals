@@ -7,11 +7,14 @@ sequence:
 #               SPRINT 1
 ############################################################
   Core JavaScript:
-    - name: Unit 1 Launch
+    # Block 1
+    - name: Core Tools Setup
       elements:
-        - kind: deck
+        - kind: guide
+          pursuit_path: computer-setup
+          pursuit_subpath: core-tools
         - kind: recording
-    - name: Introduction to Algorithms # Block 1
+    - name: Introduction to Algorithms
       pursuit_path: intro-to-algorithms
       kind: lesson
       activity: canvas_text
@@ -20,61 +23,72 @@ sequence:
       <p>Write an algorithm that achieves the following outcome: looking up a word in an online or physical dictionary. Keep in mind any inputs a person may need and the desired output. Additionally, focus on designing for the default scenario (i.e., 'happy path') before thinking about edge cases. If there are any edge cases you think are important to keep in mind, include them at the end.</p>
 
       <p>Do not spend more than 30 - 45 minutes on this Lab.</p>"
-    - name: Core Tools Setup  # Block 1
-      elements:
-        - kind: guide
-          pursuit_path: computer-setup
-          pursuit_subpath: core-tools
-        - kind: recording
-    - name: Replit Setup  # Block 1
+    # Block 2
+    - name: Introduction to Code
+      pursuit_path: intro-to-code
+      kind: lesson
+      activity: canvas_text
+      activity_description: "<p>To complete this lab, answer the following question:</p>
+      
+      <p>How does learning a coding language help you communicate with a computer? Provide as much detail as you can.</p>"
+    - name: Problem Solving Methodologies
+      pursuit_path: problem-solving-methodologies
+      kind: lesson
+      activity: canvas_text
+      activity_description: "<p>To complete this lab, answer the following question:</p>
+      
+      <p>What is Polya's Problem Solving Technique and how can it be applied to your daily life? Provide as much detail as you can.</p>"
+    # Block 3
+    - name: Replit Setup
       elements:
         - kind: guide
           pursuit_path: external-tools
           pursuit_subpath: replit
         - kind: recording
-    - name: Introduction to JavaScript  # Block 2
+    - name: Introduction to JavaScript
       pursuit_path: intro-to-javascript
       kind: lesson
       activity: replit
-    - name: Control Flow  # Block 3
+    # Block 4
+    - name: Control Flow 
       pursuit_path: control-flow
       kind: lesson
       activity: replit
-    - name: Loops  # Block 4
+    # Block 5
+    - name: Loops 
       pursuit_path: loops
       kind: lesson
       activity: replit
-    - name: Functions  # Block 5
+    # Block 6
+    - name: Functions 
       pursuit_path: functions
       kind: lesson
       activity: replit
-    - name: Common Errors  # Block 5
+    # Block 7
+    - name: Common Errors 
       pursuit_path: common-errors
       kind: lesson
       activity: replit
-    - name: Understanding Code Challenges  # Block 6
+    - name: Understanding Code Challenges 
       pursuit_path: understanding-code-challenges
       kind: lesson
       activity: replit     
-    - name: Scope  # Block 6
+    # Block 8
+    - name: Scope 
       pursuit_path: scope
       kind: lesson
       activity: replit
-    - name: Arrays  # Block 7
+    # Block 9
+    - name: Arrays 
       pursuit_path: arrays
       kind: lesson
       activity: replit
-    - name: Common Methods and Tools  # Block 8
+    # Block 10
+    - name: Common Methods and Tools 
       pursuit_path: common-methods-and-tools
       kind: lesson
       activity: replit
-      # Do on first day of first project
-      # Do problem two on day two
-      # Do problem three on day three
-    - name: Problem Solving Methodologies # Block during project
-      pursuit_path: problem-solving-methodologies
-      kind: lesson
-      # activity: replit # No activity - project instead
+    # Project
     - name: Skill Sharpening
       pursuit_path: skill-sharpening
       kind: project
@@ -84,38 +98,47 @@ sequence:
 #               SPRINT 2
 ############################################################
   Problem Solving with Code:
-    - name: Objects # Block 1
+    # Block 1
+    - name: Objects
       pursuit_path: objects
       kind: lesson
       activity: replit
-    - name: Data Representation with Code # Block 2
+    # Block 2
+    - name: Data Representation with Code
       pursuit_path: data-representation-with-code
       kind: lesson
       activity: replit
-    - name: Looping through Arrays with Objects # Block 3
+    # Block 3
+    - name: Looping through Arrays with Objects
       pursuit_path: array-object-loops
       kind: lesson
       activity: replit
-    - name: Modern JavaScript Features # Block 4
+    # Block 4
+    - name: Modern JavaScript Features
       pursuit_path: modern-javascript-features
       kind: lesson
       activity: replit
-    - name: Evaluating Expressions # Block 5
+    # Block 5
+    - name: Evaluating Expressions
       pursuit_path: evaluating-expressions
       kind: lesson
       activity: replit
-    - name: Nested Loops # Block 6
+    # Block 6
+    - name: Nested Loops
       pursuit_path: nested-loops
       kind: lesson
       activity: replit 
-    - name: Reference Types # Block 7
+    # Block 7
+    - name: Reference Types
       pursuit_path: reference-types
       kind: lesson
       activity: replit
-    - name: Accumulator Pattern # Block 8
+    # Block 8
+    - name: Accumulator Pattern
       pursuit_path: accumulator-pattern
       kind: lesson
       activity: replit
+    # Project
     - name: Trinkets and Treasures
       pursuit_path: Trinkets and Treasures
       kind: project
@@ -125,35 +148,45 @@ sequence:
 #               SPRINT 3
 ############################################################
   Coding Like a Developer:
-    - name: Local Environment Setup # Block 1
+    # Block 1
+    - name: Common Algorithms
+      pursuit_path: common-algorithms
+      kind: lesson
+      activity: canvas_text
+      activity_description: "<p>To complete this lab, answer the following question:</p>
+      
+      <p>Imagine you are tasked with explaining the accumulator pattern to someone unfamiliar with any programming languages. How would you convey the concept and its significance using everyday language?</p>"
+    
+    # Block 2
+    - name: Local Environment Setup
       elements:
         - kind: guide
           pursuit_path: computer-setup
           pursuit_subpath: local-environment
         - kind: recording
-    - name: Markdown # Block 1
+    - name: Markdown
       pursuit_path: markdown
       kind: lesson
       activity: repository
-    - name: Introduction to the Command Line # Block 2
+    - name: Introduction to the Command Line
       pursuit_path: intro-to-command-line
       kind: lesson
       activity: repository
-    - name: Git # Block 3
+    - name: Git
       pursuit_path: git
       kind: lesson
       activity: repository
-    - name: GitHub Setup # Block 4
+    - name: GitHub Setup
       elements:
         - kind: guide
           pursuit_path: external-tools
           pursuit_subpath: github
         - kind: recording
-    - name: GitHub # Block 4
+    - name: GitHub
       pursuit_path: github
       kind: lesson
       activity: repository
-    - name: Submit GitHub Username # Block 4
+    - name: Submit GitHub Username
       kind: task
       activity: canvas_url
       activity_description: "<p>Once you sign up for GitHub, submit the URL to your GitHub profile. It should have the following format, where 
@@ -165,15 +198,15 @@ sequence:
       <p>You should be able to copy and paste from the location bar in your browser.</p>"
       points_possible: 0
 
-    - name: JavaScript on Your Machine # Block 5
+    - name: JavaScript on Your Machine
       pursuit_path: javascript-on-your-machine
       kind: lesson
       activity: repository
-    - name: Higher Order Functions # Block 6 
+    - name: Higher Order Functions
       pursuit_path: higher-order-functions
       kind: lesson
       activity: repository
-    - name: Higher Order Native Array Methods # Block 7 
+    - name: Higher Order Native Array Methods
       pursuit_path: higher-order-native-array-methods
       kind: lesson
       activity: repository
