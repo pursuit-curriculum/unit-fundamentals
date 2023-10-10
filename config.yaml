@@ -156,8 +156,13 @@ sequence:
       activity_description: "<p>To complete this lab, answer the following question:</p>
       
       <p>Imagine you are tasked with explaining the accumulator pattern to someone unfamiliar with any programming languages. How would you convey the concept and its significance using everyday language?</p>"
-    
+    - name: Tinkerer Mindset
+      pursuit_path: tinkerer-mindset
+      kind: lesson
+      activity: replit
+
     # Block 2
+
     - name: Local Environment Setup
       elements:
         - kind: guide
