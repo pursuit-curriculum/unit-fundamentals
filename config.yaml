@@ -147,7 +147,7 @@ sequence:
 ############################################################
 #               SPRINT 3
 ############################################################
-  Coding Like a Developer:
+  Advanced Software Development Skills:
     # Block 1
     - name: Common Algorithms
       pursuit_path: common-algorithms
@@ -162,6 +162,15 @@ sequence:
       activity: replit
 
     # Block 2
+    - name: Technical Communication
+      pursuit_path: technical-communication
+      kind: lesson
+      activity: canvas_url
+      activity_description: "<p>Revisit the most recent project you completed in this course. Choose two functions in that project and add comments to your solution that explain how the code works. Make sure to use technical language throughout.</p>
+
+      <p>Once you're done, resubmit a link to that project as part of this assignment.</p>"
+    
+    # Block 3
 
     - name: Local Environment Setup
       elements:
