@@ -171,6 +171,17 @@ sequence:
       <p>Once you're done, resubmit a link to that project as part of this assignment.</p>"
     
     # Block 3
+    - name: Programming Principles
+      pursuit_path: programming-principles
+      kind: lesson
+      # no activity
+    - name: Program Design
+      pursuit_path: program-design
+      kind: lesson
+      activity: canvas_url
+      activity_description: "<p>Revisit the most recent project you completed in this course. Choose a function in that project that could be improved based on what you learned in the Programming Principles or Program Design lessons. Update the code to make it more readable or organized. Then, add a comment above the function describing what you changed.</p>
+
+      <p>Once you're done, resubmit a link to that project as part of this assignment.</p>"
 
     - name: Local Environment Setup
       elements:
