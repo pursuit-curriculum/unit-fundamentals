@@ -183,6 +183,15 @@ sequence:
 
       <p>Once you're done, resubmit a link to that project as part of this assignment.</p>"
 
+    # Block 4
+    - name: Measuring Complexity
+      pursuit_path: measuring-complexity
+      kind: lesson
+      activity: canvas_url
+      activity_description: "<p>Revisit the most recent project you completed in this course. Add a comment underneath each function for that project that describes the time complexity of the function.</p>
+
+      <p>Once you're done, resubmit a link to that project as part of this assignment.</p>"
+
     - name: Local Environment Setup
       elements:
         - kind: guide
