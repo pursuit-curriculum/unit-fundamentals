@@ -166,9 +166,9 @@ sequence:
       pursuit_path: technical-communication
       kind: lesson
       activity: canvas_url
-      activity_description: "<p>Revisit the most recent project you completed in this course. Choose two functions in that project and add comments to your solution that explain how the code works. Make sure to use technical language throughout.</p>
+      activity_description: "<p>Revisit a recent project or lab you completed in this course. Choose two functions in that project or lab and add comments to your solution that explain how the code works. Make sure to use technical language throughout.</p>
 
-      <p>Once you're done, resubmit a link to that project as part of this assignment.</p>"
+      <p>Once you're done, resubmit a link to that project or lab as part of this assignment.</p>"
     
     # Block 3
     - name: Programming Principles
@@ -179,9 +179,9 @@ sequence:
       pursuit_path: program-design
       kind: lesson
       activity: canvas_url
-      activity_description: "<p>Revisit the most recent project you completed in this course. Choose a function in that project that could be improved based on what you learned in the Programming Principles or Program Design lessons. Update the code to make it more readable or organized. Then, add a comment above the function describing what you changed.</p>
+      activity_description: "<p>Revisit a recent project or lab you completed in this course. Choose a function in that project or lab that could be improved based on what you learned in the Programming Principles or Program Design lessons. Update the code to make it more readable or organized. Then, add a comment above the function describing what you changed.</p>
 
-      <p>Once you're done, resubmit a link to that project as part of this assignment.</p>"
+      <p>Once you're done, resubmit a link to that project or lab as part of this assignment.</p>"
 
     # Block 4
     - name: Measuring Complexity
@@ -193,6 +193,14 @@ sequence:
       <p>Once you're done, resubmit a link to that project as part of this assignment.</p>"
 
     # Block 5
+    - name: Recursion
+      pursuit_path: recursion
+      kind: lesson
+      activity: canvas_url
+      activity_description: "<p>Revisit a recent project or lab you completed in this course. Choose two functions in that project or lab that use loops and convert the functions to recursive functions.</p>
+
+      <p>Once you're done, resubmit a link to that project or lab as part of this assignment.</p>"
+
     - name: Local Environment Setup
       elements:
         - kind: guide
