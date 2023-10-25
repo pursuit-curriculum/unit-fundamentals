@@ -211,6 +211,10 @@ sequence:
       kind: lesson
       # no activity
 
+############################################################
+#               SPRINT 4
+############################################################
+    # Block 1
     - name: Local Environment Setup
       elements:
         - kind: guide
@@ -221,10 +225,14 @@ sequence:
       pursuit_path: intro-to-command-line
       kind: lesson
       activity: repository
+    
+    # Block 2
     - name: Git
       pursuit_path: git
       kind: lesson
       activity: repository
+    
+    # Block 3
     - name: GitHub Setup
       elements:
         - kind: guide
@@ -247,18 +255,25 @@ sequence:
       <p>You should be able to copy and paste from the location bar in your browser.</p>"
       points_possible: 0
 
+    # Block 4
     - name: JavaScript on Your Machine
       pursuit_path: javascript-on-your-machine
       kind: lesson
       activity: repository
+    
+    # Block 56
     - name: Higher Order Functions
       pursuit_path: higher-order-functions
       kind: lesson
       activity: repository
+    
+    # Block 6 & 7
     - name: Higher Order Native Array Methods
       pursuit_path: higher-order-native-array-methods
       kind: lesson
       activity: repository
+    
+    # Project
     - name: Dinosaur Museum
       pursuit_path: dinosaur-museum
       kind: project
