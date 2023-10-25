@@ -169,7 +169,11 @@ sequence:
       activity_description: "<p>Revisit a recent project or lab you completed in this course. Choose two functions in that project or lab and add comments to your solution that explain how the code works. Make sure to use technical language throughout.</p>
 
       <p>Once you're done, resubmit a link to that project or lab as part of this assignment.</p>"
-    
+    - name: Markdown
+      pursuit_path: markdown
+      kind: lesson
+      activity: repository
+
     # Block 3
     - name: Programming Principles
       pursuit_path: programming-principles
@@ -201,16 +205,18 @@ sequence:
 
       <p>Once you're done, resubmit a link to that project or lab as part of this assignment.</p>"
 
+    # Block 6
+    - name: Binary Search
+      pursuit_path: binary-search
+      kind: lesson
+      # no activity
+
     - name: Local Environment Setup
       elements:
         - kind: guide
           pursuit_path: computer-setup
           pursuit_subpath: local-environment
         - kind: recording
-    - name: Markdown
-      pursuit_path: markdown
-      kind: lesson
-      activity: repository
     - name: Introduction to the Command Line
       pursuit_path: intro-to-command-line
       kind: lesson
