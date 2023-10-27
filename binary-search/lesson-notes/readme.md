@@ -30,13 +30,11 @@ By the end of this lesson, you should be able to:
 
 - Visit the "Algorithm Example: Binary Search" Replit within your classroom's Replit team. Take a look at the code and the `readme.md` file and then answer the following questions.
 
-  - The `readme.md` includes an introduction followed by 7 sections. Describe the purpose of each section in the `readme.md` file.
+  - The `readme.md` includes an introduction followed by 6 sections. Describe the purpose of each section in the `readme.md` file.
 
     1. Algorithm description
 
     1. Algorithm representation
-
-    1. JavaScript code walkthrough
 
     1. Big O Evaluation
 
