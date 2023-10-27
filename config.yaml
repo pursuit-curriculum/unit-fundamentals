@@ -211,6 +211,25 @@ sequence:
       kind: lesson
       # no activity
 
+    # Project
+    - name: Independent Study
+      pursuit_path: independent-study
+      kind: project
+      activity: repository
+      points_possible: 60 
+    - name: Independent Study Presentation
+      kind: project
+      activity: presentation
+      points_possible: 40 
+
+    # Block 7
+    - name: Codetrack
+      elements:
+        - kind: guide
+          pursuit_path: external-tools
+          pursuit_subpath: codetrack
+        - kind: recording
+
 ############################################################
 #               SPRINT 4
 ############################################################
