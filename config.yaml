@@ -233,6 +233,7 @@ sequence:
 ############################################################
 #               SPRINT 4
 ############################################################
+  Program Like a Developer:
     # Block 1
     - name: Local Environment Setup
       elements:
